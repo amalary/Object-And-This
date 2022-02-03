@@ -41,8 +41,13 @@ const tweet = {
 
     console.log(tweet.comments[0].text); 
 
-    // 
+    // Question 3 
 
     console.log(tweet.extended_tweet.full_text); 
 
+    //  Question 4 
+
+    console.log(tweet.extended_tweet.entities.hashtags[0].text); 
+
     
+
