@@ -34,6 +34,8 @@ const tweet = {
     };
 
 
+
+
     // Question 1 
     console.log(tweet.user.screen_name); 
 
@@ -54,6 +56,10 @@ const tweet = {
     tweet.user.screen_name = "saladNames12"; 
 
     console.log(tweet.user.screen_name); 
+
+  tweet.comments[0].user.screen_name = "CrazySandyCheeks"; 
+
+console.log(tweet.comments[0].user.screen_name);
 
 
 
