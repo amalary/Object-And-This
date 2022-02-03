@@ -57,14 +57,30 @@ const tweet = {
 
     console.log(tweet.user.screen_name); 
 
+    // Question 6
+
   tweet.comments[0].user.screen_name = "CrazySandyCheeks"; 
 
 console.log(tweet.comments[0].user.screen_name);
 
-tweet.meta = {retweet:''}
+    // Question 7 
 
-console.log(tweet.meta); 
+  tweet.meta = {retweet:''}
 
+  console.log(tweet.meta); 
+
+  // Question 8 
+
+  tweet.comments[1] = {
+    created_at: 'Thu May 11 20:13:57 +0000 2018',
+    id_str: '994633657141813248',
+    text: 'Long day guys long day',
+    user: { id_str: '944488470', screen_name: 'CrazySandyCheeks' }
+  }
+
+  console.log(tweet.comments[1]); 
+
+  
 
 
 
