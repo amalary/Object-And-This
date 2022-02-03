@@ -49,5 +49,11 @@ const tweet = {
 
     console.log(tweet.extended_tweet.entities.hashtags[0].text); 
 
-    
+    // Question 5 
+
+    tweet.user.screen_name = "saladNames12"; 
+
+    console.log(tweet.user.screen_name); 
+
+
 
