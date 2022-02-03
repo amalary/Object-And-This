@@ -39,6 +39,10 @@ const tweet = {
 
     // Question 2 
 
-    console.log(tweet.comments[0].text)
+    console.log(tweet.comments[0].text); 
+
+    // 
+
+    console.log(tweet.extended_tweet.full_text); 
 
     
