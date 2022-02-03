@@ -61,5 +61,13 @@ const tweet = {
 
 console.log(tweet.comments[0].user.screen_name);
 
+tweet.meta = {retweet:''}
+
+console.log(tweet.meta); 
+
+
+
+
+
 
 
